@@ -1,0 +1,48 @@
+body, html {
+    width: 100wv;
+    height: 100hv;
+}
+
+body{
+    background: #000517;
+}
+
+h3 {
+   font-size: 23px; 
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color:#eeeee4;    
+}
+
+.card-conteiner{
+    color:#eeeee4;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+#card{
+    border-radius: 20px;
+    box-shadow: 7px 7px 13px 0px rgba(161, 39, 39, 0.22);
+    background: #000520;
+    padding: 30px;
+    margin: 20px;
+    align-items: center;
+}
+
+#card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
