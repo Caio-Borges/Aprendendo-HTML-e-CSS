@@ -30,12 +30,11 @@ img {
     grid-template-columns: repeat(3,300px);
     max-width: 900px;
     margin: 0 auto;
-    background-color: green;
 }
 
 #card{
     border-radius: 20px;
-    box-shadow: 7px 7px 13px 0px rgba(161, 39, 39, 0.22);
+    box-shadow: 7px 7px 13px 0px rgba(82, 80, 80, 0.22);
     background: #000520;
     padding: 30px;
     margin: 20px;
